@@ -1,0 +1,95 @@
+body{
+    background-color: #282A35;
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#add-transaction{
+    margin: 20px;
+    border: 1px solid grey;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#add-transaction > button{
+    width: 100%;
+
+}
+
+#add-transaction > button,
+#add-transaction > label,
+#add-transaction > input {
+    margin: 5px;
+}
+#add-transaction > button{
+    width: 100%;
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr th, table tr td {
+    padding: 5px;
+    border: 1px #eee solid;
+}
+
+tfoot tr th, tfoot tr td {
+    font-size: 20px;
+}
+
+tfoot tr th {
+    text-align: right;
+}
+
+button {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  padding: 5px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+button:hover,
+button:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
