@@ -14,6 +14,10 @@ body{
     flex-direction: column;
 }
 
+.change-transaction{
+    margin: 20px
+}
+
 
 #add-transaction > button{
     width: 100%;
